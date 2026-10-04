@@ -8,6 +8,7 @@ import {
     Globe,
     HardHat,
     LayoutGrid,
+    LifeBuoy,
     Mail,
     Megaphone,
     NotebookTabs,
@@ -18,7 +19,7 @@ import {
     Wallet,
     Wrench,
 } from 'lucide-react';
-import { dashboard } from '@/routes';
+import { dashboard, userManual } from '@/routes';
 import advantages from '@/routes/advantages';
 import agreements from '@/routes/agreements';
 import amenities from '@/routes/amenities';
@@ -264,6 +265,11 @@ export const navigation: NavSection[] = [
                 href: companySettings.index(),
                 permission: 'manage-settings',
                 icon: Settings,
+            },
+            {
+                title: 'User Manual',
+                href: userManual(),
+                icon: LifeBuoy,
             },
         ],
     },
