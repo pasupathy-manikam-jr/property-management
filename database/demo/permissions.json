@@ -1,0 +1,542 @@
+[
+    {
+        "module": "advantages",
+        "name": "manage-advantages",
+        "label": "Manage advantage",
+        "description": null
+    },
+    {
+        "module": "advantages",
+        "name": "create-advantages",
+        "label": "Create advantage",
+        "description": null
+    },
+    {
+        "module": "advantages",
+        "name": "edit-advantages",
+        "label": "Edit advantage",
+        "description": null
+    },
+    {
+        "module": "advantages",
+        "name": "delete-advantages",
+        "label": "Delete advantage",
+        "description": null
+    },
+    {
+        "module": "agreements",
+        "name": "manage-agreements",
+        "label": "Manage agreement",
+        "description": null
+    },
+    {
+        "module": "agreements",
+        "name": "create-agreements",
+        "label": "Create agreement",
+        "description": null
+    },
+    {
+        "module": "agreements",
+        "name": "edit-agreements",
+        "label": "Edit agreement",
+        "description": null
+    },
+    {
+        "module": "agreements",
+        "name": "show-agreements",
+        "label": "Show agreement",
+        "description": null
+    },
+    {
+        "module": "agreements",
+        "name": "delete-agreements",
+        "label": "Delete agreement",
+        "description": null
+    },
+    {
+        "module": "amenities",
+        "name": "manage-amenities",
+        "label": "Manage amenity",
+        "description": null
+    },
+    {
+        "module": "amenities",
+        "name": "create-amenities",
+        "label": "Create amenity",
+        "description": null
+    },
+    {
+        "module": "amenities",
+        "name": "edit-amenities",
+        "label": "Edit amenity",
+        "description": null
+    },
+    {
+        "module": "amenities",
+        "name": "delete-amenities",
+        "label": "Delete amenity",
+        "description": null
+    },
+    {
+        "module": "blogs",
+        "name": "manage-blogs",
+        "label": "Manage blog",
+        "description": null
+    },
+    {
+        "module": "blogs",
+        "name": "create-blogs",
+        "label": "Create blog",
+        "description": null
+    },
+    {
+        "module": "blogs",
+        "name": "edit-blogs",
+        "label": "Edit blog",
+        "description": null
+    },
+    {
+        "module": "blogs",
+        "name": "delete-blogs",
+        "label": "Delete blog",
+        "description": null
+    },
+    {
+        "module": "calendar",
+        "name": "manage-calendar",
+        "label": "Manage calendar",
+        "description": null
+    },
+    {
+        "module": "contacts",
+        "name": "create-contacts",
+        "label": "Create contact",
+        "description": null
+    },
+    {
+        "module": "contacts",
+        "name": "edit-contacts",
+        "label": "Edit contact",
+        "description": null
+    },
+    {
+        "module": "contacts",
+        "name": "delete-contacts",
+        "label": "Delete contact",
+        "description": null
+    },
+    {
+        "module": "contacts",
+        "name": "manage-contacts",
+        "label": "Manage contact",
+        "description": null
+    },
+    {
+        "module": "dashboard",
+        "name": "manage-dashboard",
+        "label": "Manage dashboard",
+        "description": null
+    },
+    {
+        "module": "expenses",
+        "name": "manage-expenses",
+        "label": "Manage expense",
+        "description": null
+    },
+    {
+        "module": "expenses",
+        "name": "create-expenses",
+        "label": "Create expense",
+        "description": null
+    },
+    {
+        "module": "expenses",
+        "name": "edit-expenses",
+        "label": "Edit expense",
+        "description": null
+    },
+    {
+        "module": "expenses",
+        "name": "delete-expenses",
+        "label": "Delete expense",
+        "description": null
+    },
+    {
+        "module": "expenses",
+        "name": "show-expenses",
+        "label": "Show expense",
+        "description": null
+    },
+    {
+        "module": "invoice-items",
+        "name": "delete-invoice-items",
+        "label": "Delete invoice type",
+        "description": null
+    },
+    {
+        "module": "invoice-payments",
+        "name": "create-invoice-payments",
+        "label": "Create invoice payment",
+        "description": null
+    },
+    {
+        "module": "invoice-payments",
+        "name": "delete-invoice-payments",
+        "label": "Delete invoice payment",
+        "description": null
+    },
+    {
+        "module": "invoices",
+        "name": "manage-invoices",
+        "label": "Manage invoice",
+        "description": null
+    },
+    {
+        "module": "invoices",
+        "name": "create-invoices",
+        "label": "Create invoice",
+        "description": null
+    },
+    {
+        "module": "invoices",
+        "name": "edit-invoices",
+        "label": "Edit invoice",
+        "description": null
+    },
+    {
+        "module": "invoices",
+        "name": "delete-invoices",
+        "label": "Delete invoice",
+        "description": null
+    },
+    {
+        "module": "invoices",
+        "name": "show-invoices",
+        "label": "Show invoice",
+        "description": null
+    },
+    {
+        "module": "login-history",
+        "name": "manage-login-history",
+        "label": "Manage logged history",
+        "description": null
+    },
+    {
+        "module": "login-history",
+        "name": "delete-login-history",
+        "label": "Delete logged history",
+        "description": null
+    },
+    {
+        "module": "maintainers",
+        "name": "manage-maintainers",
+        "label": "Manage maintainer",
+        "description": null
+    },
+    {
+        "module": "maintainers",
+        "name": "create-maintainers",
+        "label": "Create maintainer",
+        "description": null
+    },
+    {
+        "module": "maintainers",
+        "name": "edit-maintainers",
+        "label": "Edit maintainer",
+        "description": null
+    },
+    {
+        "module": "maintainers",
+        "name": "delete-maintainers",
+        "label": "Delete maintainer",
+        "description": null
+    },
+    {
+        "module": "maintainers",
+        "name": "assign-maintainers",
+        "label": "Assign maintainer",
+        "description": null
+    },
+    {
+        "module": "maintenance-requests",
+        "name": "manage-maintenance-requests",
+        "label": "Manage maintenance request",
+        "description": null
+    },
+    {
+        "module": "maintenance-requests",
+        "name": "create-maintenance-requests",
+        "label": "Create maintenance request",
+        "description": null
+    },
+    {
+        "module": "maintenance-requests",
+        "name": "edit-maintenance-requests",
+        "label": "Edit maintenance request",
+        "description": null
+    },
+    {
+        "module": "maintenance-requests",
+        "name": "delete-maintenance-requests",
+        "label": "Delete maintenance request",
+        "description": null
+    },
+    {
+        "module": "maintenance-requests",
+        "name": "show-maintenance-requests",
+        "label": "Show maintenance request",
+        "description": null
+    },
+    {
+        "module": "notes",
+        "name": "manage-notes",
+        "label": "Manage note",
+        "description": null
+    },
+    {
+        "module": "notes",
+        "name": "create-notes",
+        "label": "Create note",
+        "description": null
+    },
+    {
+        "module": "notes",
+        "name": "edit-notes",
+        "label": "Edit note",
+        "description": null
+    },
+    {
+        "module": "notes",
+        "name": "delete-notes",
+        "label": "Delete note",
+        "description": null
+    },
+    {
+        "module": "notifications",
+        "name": "manage-notifications",
+        "label": "Manage email notifications",
+        "description": null
+    },
+    {
+        "module": "properties",
+        "name": "manage-properties",
+        "label": "Manage property",
+        "description": null
+    },
+    {
+        "module": "properties",
+        "name": "create-properties",
+        "label": "Create property",
+        "description": null
+    },
+    {
+        "module": "properties",
+        "name": "edit-properties",
+        "label": "Edit property",
+        "description": null
+    },
+    {
+        "module": "properties",
+        "name": "delete-properties",
+        "label": "Delete property",
+        "description": null
+    },
+    {
+        "module": "properties",
+        "name": "show-properties",
+        "label": "Show property",
+        "description": null
+    },
+    {
+        "module": "reports",
+        "name": "manage-income-report",
+        "label": "Manage income report",
+        "description": null
+    },
+    {
+        "module": "reports",
+        "name": "manage-expense-report",
+        "label": "Manage expense report",
+        "description": null
+    },
+    {
+        "module": "reports",
+        "name": "manage-property-unit-report",
+        "label": "Manage property unit report",
+        "description": null
+    },
+    {
+        "module": "reports",
+        "name": "manage-tenant-history-report",
+        "label": "Manage tenant history report",
+        "description": null
+    },
+    {
+        "module": "reports",
+        "name": "manage-maintenance-report",
+        "label": "Manage maintenance report",
+        "description": null
+    },
+    {
+        "module": "reports",
+        "name": "manage-profit-loss-report",
+        "label": "Manage profit loss report",
+        "description": null
+    },
+    {
+        "module": "roles",
+        "name": "manage-roles",
+        "label": "Manage roles",
+        "description": null
+    },
+    {
+        "module": "roles",
+        "name": "create-roles",
+        "label": "Create roles",
+        "description": null
+    },
+    {
+        "module": "roles",
+        "name": "edit-roles",
+        "label": "Edit roles",
+        "description": null
+    },
+    {
+        "module": "roles",
+        "name": "delete-roles",
+        "label": "Delete roles",
+        "description": null
+    },
+    {
+        "module": "settings",
+        "name": "manage-settings",
+        "label": "Manage settings",
+        "description": null
+    },
+    {
+        "module": "tenants",
+        "name": "manage-tenants",
+        "label": "Manage tenant",
+        "description": null
+    },
+    {
+        "module": "tenants",
+        "name": "create-tenants",
+        "label": "Create tenant",
+        "description": null
+    },
+    {
+        "module": "tenants",
+        "name": "edit-tenants",
+        "label": "Edit tenant",
+        "description": null
+    },
+    {
+        "module": "tenants",
+        "name": "delete-tenants",
+        "label": "Delete tenant",
+        "description": null
+    },
+    {
+        "module": "tenants",
+        "name": "show-tenants",
+        "label": "Show tenant",
+        "description": null
+    },
+    {
+        "module": "types",
+        "name": "manage-types",
+        "label": "Manage types",
+        "description": null
+    },
+    {
+        "module": "types",
+        "name": "create-types",
+        "label": "Create types",
+        "description": null
+    },
+    {
+        "module": "types",
+        "name": "edit-types",
+        "label": "Edit types",
+        "description": null
+    },
+    {
+        "module": "types",
+        "name": "delete-types",
+        "label": "Delete types",
+        "description": null
+    },
+    {
+        "module": "units",
+        "name": "manage-units",
+        "label": "Manage unit",
+        "description": null
+    },
+    {
+        "module": "units",
+        "name": "create-units",
+        "label": "Create unit",
+        "description": null
+    },
+    {
+        "module": "units",
+        "name": "edit-units",
+        "label": "Edit unit",
+        "description": null
+    },
+    {
+        "module": "units",
+        "name": "delete-units",
+        "label": "Delete unit",
+        "description": null
+    },
+    {
+        "module": "units",
+        "name": "show-units",
+        "label": "Show unit",
+        "description": null
+    },
+    {
+        "module": "users",
+        "name": "manage-users",
+        "label": "Manage user",
+        "description": null
+    },
+    {
+        "module": "users",
+        "name": "create-users",
+        "label": "Create user",
+        "description": null
+    },
+    {
+        "module": "users",
+        "name": "edit-users",
+        "label": "Edit user",
+        "description": null
+    },
+    {
+        "module": "users",
+        "name": "delete-users",
+        "label": "Delete user",
+        "description": null
+    },
+    {
+        "module": "users",
+        "name": "reset-password-users",
+        "label": "Reset user password",
+        "description": null
+    },
+    {
+        "module": "users",
+        "name": "toggle-status-users",
+        "label": "Change user status",
+        "description": null
+    },
+    {
+        "module": "website",
+        "name": "manage-website",
+        "label": "Manage website",
+        "description": null
+    }
+]

@@ -1,0 +1,259 @@
+[
+    {
+        "type": "own",
+        "name": "Residensi Bayu Damansara",
+        "description": "Modern condominium near the MRT with a rooftop pool and gym.",
+        "address": "Jalan PJU 7/3, Mutiara Damansara",
+        "city": "Petaling Jaya",
+        "state": "Selangor",
+        "zip_code": "47800",
+        "country": "Malaysia",
+        "amenities": ["Gym", "Swimming Pool", "Elevator", "Wi-Fi Zone"],
+        "advantages": ["24/7 Security", "Air Conditioning"],
+        "units": [
+            {
+                "name": "A-10-1",
+                "bedroom": 3,
+                "kitchen": 1,
+                "baths": 2,
+                "rent": 2800,
+                "rent_type": "monthly",
+                "deposit_type": "fixed",
+                "deposit_amount": 5600,
+                "late_fee_type": "percentage",
+                "late_fee_amount": 5,
+                "incident_receipt_amount": 0
+            },
+            {
+                "name": "A-10-2",
+                "bedroom": 2,
+                "kitchen": 1,
+                "baths": 2,
+                "rent": 2300,
+                "rent_type": "monthly",
+                "deposit_type": "fixed",
+                "deposit_amount": 4600,
+                "late_fee_type": "percentage",
+                "late_fee_amount": 5,
+                "incident_receipt_amount": 0
+            },
+            {
+                "name": "B-05-3",
+                "bedroom": 1,
+                "kitchen": 1,
+                "baths": 1,
+                "rent": 1600,
+                "rent_type": "monthly",
+                "deposit_type": "fixed",
+                "deposit_amount": 3200,
+                "late_fee_type": "percentage",
+                "late_fee_amount": 5,
+                "incident_receipt_amount": 0
+            },
+            {
+                "name": "B-12-8",
+                "bedroom": 3,
+                "kitchen": 1,
+                "baths": 2,
+                "rent": 3000,
+                "rent_type": "monthly",
+                "deposit_type": "fixed",
+                "deposit_amount": 6000,
+                "late_fee_type": "percentage",
+                "late_fee_amount": 5,
+                "incident_receipt_amount": 0
+            }
+        ],
+        "image": "property-1.jpg"
+    },
+    {
+        "type": "own",
+        "name": "Menara Seri Bangsar",
+        "description": "Serviced apartments in Bangsar South, walking distance to offices.",
+        "address": "Jalan Kerinchi, Bangsar South",
+        "city": "Kuala Lumpur",
+        "state": "Wilayah Persekutuan",
+        "zip_code": "59200",
+        "country": "Malaysia",
+        "amenities": ["Gym", "Elevator", "Waste Disposal"],
+        "advantages": ["24/7 Security", "Laundry Service", "Air Conditioning"],
+        "units": [
+            {
+                "name": "12-03",
+                "bedroom": 2,
+                "kitchen": 1,
+                "baths": 2,
+                "rent": 3200,
+                "rent_type": "monthly",
+                "deposit_type": "fixed",
+                "deposit_amount": 6400,
+                "late_fee_type": "percentage",
+                "late_fee_amount": 5,
+                "incident_receipt_amount": 0
+            },
+            {
+                "name": "15-07",
+                "bedroom": 1,
+                "kitchen": 1,
+                "baths": 1,
+                "rent": 2400,
+                "rent_type": "monthly",
+                "deposit_type": "fixed",
+                "deposit_amount": 4800,
+                "late_fee_type": "percentage",
+                "late_fee_amount": 5,
+                "incident_receipt_amount": 0
+            },
+            {
+                "name": "20-01",
+                "bedroom": 3,
+                "kitchen": 1,
+                "baths": 2,
+                "rent": 4500,
+                "rent_type": "monthly",
+                "deposit_type": "fixed",
+                "deposit_amount": 9000,
+                "late_fee_type": "percentage",
+                "late_fee_amount": 5,
+                "incident_receipt_amount": 0
+            }
+        ],
+        "image": "property-2.jpg"
+    },
+    {
+        "type": "lease",
+        "name": "Taman Sri Gelugor Terrace",
+        "description": "Double-storey terrace houses close to USM and schools.",
+        "address": "Lorong Sri Gelugor 3",
+        "city": "George Town",
+        "state": "Pulau Pinang",
+        "zip_code": "11700",
+        "country": "Malaysia",
+        "amenities": ["Electricity", "Solar Panels"],
+        "advantages": ["Pet allowed"],
+        "units": [
+            {
+                "name": "No. 12",
+                "bedroom": 4,
+                "kitchen": 1,
+                "baths": 3,
+                "rent": 1900,
+                "rent_type": "monthly",
+                "deposit_type": "fixed",
+                "deposit_amount": 3800,
+                "late_fee_type": "percentage",
+                "late_fee_amount": 5,
+                "incident_receipt_amount": 0
+            },
+            {
+                "name": "No. 14",
+                "bedroom": 4,
+                "kitchen": 1,
+                "baths": 3,
+                "rent": 1900,
+                "rent_type": "monthly",
+                "deposit_type": "fixed",
+                "deposit_amount": 3800,
+                "late_fee_type": "percentage",
+                "late_fee_amount": 5,
+                "incident_receipt_amount": 0
+            }
+        ],
+        "image": "property-3.jpg"
+    },
+    {
+        "type": "lease",
+        "name": "Kompleks Niaga Setia Alam",
+        "description": "Ground-floor shop lots on a busy commercial street.",
+        "address": "Jalan Setia Prima U13/S",
+        "city": "Shah Alam",
+        "state": "Selangor",
+        "zip_code": "40170",
+        "country": "Malaysia",
+        "amenities": ["Electricity", "Waste Disposal"],
+        "advantages": [],
+        "units": [
+            {
+                "name": "Lot G-01",
+                "bedroom": 0,
+                "kitchen": 0,
+                "baths": 1,
+                "rent": 5500,
+                "rent_type": "monthly",
+                "deposit_type": "fixed",
+                "deposit_amount": 11000,
+                "late_fee_type": "percentage",
+                "late_fee_amount": 5,
+                "incident_receipt_amount": 0
+            },
+            {
+                "name": "Lot G-02",
+                "bedroom": 0,
+                "kitchen": 0,
+                "baths": 1,
+                "rent": 5200,
+                "rent_type": "monthly",
+                "deposit_type": "fixed",
+                "deposit_amount": 10400,
+                "late_fee_type": "percentage",
+                "late_fee_amount": 5,
+                "incident_receipt_amount": 0
+            }
+        ],
+        "image": "property-4.jpg"
+    },
+    {
+        "type": "own",
+        "name": "Pangsapuri Mutiara Johor",
+        "description": "Affordable family apartments near CIQ and Bukit Indah.",
+        "address": "Jalan Indah 15, Bukit Indah",
+        "city": "Johor Bahru",
+        "state": "Johor",
+        "zip_code": "81200",
+        "country": "Malaysia",
+        "amenities": ["Swimming Pool", "Elevator"],
+        "advantages": ["24/7 Security"],
+        "units": [
+            {
+                "name": "C-3-5",
+                "bedroom": 3,
+                "kitchen": 1,
+                "baths": 2,
+                "rent": 1300,
+                "rent_type": "monthly",
+                "deposit_type": "fixed",
+                "deposit_amount": 2600,
+                "late_fee_type": "percentage",
+                "late_fee_amount": 5,
+                "incident_receipt_amount": 0
+            },
+            {
+                "name": "C-6-2",
+                "bedroom": 3,
+                "kitchen": 1,
+                "baths": 2,
+                "rent": 1350,
+                "rent_type": "monthly",
+                "deposit_type": "fixed",
+                "deposit_amount": 2700,
+                "late_fee_type": "percentage",
+                "late_fee_amount": 5,
+                "incident_receipt_amount": 0
+            },
+            {
+                "name": "D-1-1",
+                "bedroom": 2,
+                "kitchen": 1,
+                "baths": 1,
+                "rent": 1100,
+                "rent_type": "monthly",
+                "deposit_type": "fixed",
+                "deposit_amount": 2200,
+                "late_fee_type": "percentage",
+                "late_fee_amount": 5,
+                "incident_receipt_amount": 0
+            }
+        ],
+        "image": "property-5.jpg"
+    }
+]

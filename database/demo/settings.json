@@ -1,0 +1,116 @@
+{
+    "notification_templates": [
+        {
+            "event": "tenant_created",
+            "enabled": true,
+            "subject": {
+                "en": "Welcome to {company_name}",
+                "ms": "Selamat datang ke {company_name}",
+                "zh": "欢迎加入 {company_name}"
+            },
+            "body": {
+                "en": "Dear {tenant_name},\n\nYour tenant account has been created.\n\nLogin: {login_url}\nEmail: {email}\nPassword: {password}\n\nPlease change your password after your first login.\n\nBest regards,\n{company_name}\n{company_email}",
+                "ms": "Kepada {tenant_name},\n\nAkaun penyewa anda telah dicipta.\n\nLog masuk: {login_url}\nE-mel: {email}\nKata laluan: {password}\n\nSila tukar kata laluan anda selepas log masuk kali pertama.\n\nSekian, terima kasih.\n{company_name}\n{company_email}",
+                "zh": "{tenant_name} 您好，\n\n您的租户账户已创建。\n\n登录：{login_url}\n电子邮件：{email}\n密码：{password}\n\n请在首次登录后修改密码。\n\n此致\n{company_name}\n{company_email}"
+            }
+        },
+        {
+            "event": "maintainer_created",
+            "enabled": true,
+            "subject": {
+                "en": "Your maintainer account at {company_name}",
+                "ms": "Akaun penyelenggara anda di {company_name}",
+                "zh": "您在 {company_name} 的维修人员账户"
+            },
+            "body": {
+                "en": "Dear {maintainer_name},\n\nYour maintainer account has been created.\n\nLogin: {login_url}\nEmail: {email}\nPassword: {password}\n\nYou will see the maintenance jobs assigned to you after logging in.\n\nBest regards,\n{company_name}\n{company_email}",
+                "ms": "Kepada {maintainer_name},\n\nAkaun penyelenggara anda telah dicipta.\n\nLog masuk: {login_url}\nE-mel: {email}\nKata laluan: {password}\n\nAnda akan melihat kerja penyelenggaraan yang ditugaskan selepas log masuk.\n\nSekian, terima kasih.\n{company_name}\n{company_email}",
+                "zh": "{maintainer_name} 您好，\n\n您的维修人员账户已创建。\n\n登录：{login_url}\n电子邮件：{email}\n密码：{password}\n\n登录后即可查看分配给您的维修工作。\n\n此致\n{company_name}\n{company_email}"
+            }
+        },
+        {
+            "event": "maintenance_request_created",
+            "enabled": true,
+            "subject": {
+                "en": "New maintenance request: {property_name} {unit_name}",
+                "ms": "Permintaan penyelenggaraan baharu: {property_name} {unit_name}",
+                "zh": "新的维修请求：{property_name} {unit_name}"
+            },
+            "body": {
+                "en": "Dear {user_name},\n\nA new maintenance request has been created.\n\nProperty: {property_name}\nUnit: {unit_name}\nIssue: {issue_type}\nDate: {request_date}\nMaintainer: {maintainer_name}\n\nWe will keep you updated on its progress.\n\nBest regards,\n{company_name}\n{company_email}",
+                "ms": "Kepada {user_name},\n\nPermintaan penyelenggaraan baharu telah dibuat.\n\nHartanah: {property_name}\nUnit: {unit_name}\nIsu: {issue_type}\nTarikh: {request_date}\nPenyelenggara: {maintainer_name}\n\nKami akan memaklumkan perkembangannya kepada anda.\n\nSekian, terima kasih.\n{company_name}\n{company_email}",
+                "zh": "{user_name} 您好，\n\n已创建新的维修请求。\n\n物业：{property_name}\n单位：{unit_name}\n问题：{issue_type}\n日期：{request_date}\n维修人员：{maintainer_name}\n\n我们会随时告知您处理进度。\n\n此致\n{company_name}\n{company_email}"
+            }
+        },
+        {
+            "event": "maintenance_completed",
+            "enabled": true,
+            "subject": {
+                "en": "Maintenance completed: {property_name} {unit_name}",
+                "ms": "Penyelenggaraan selesai: {property_name} {unit_name}",
+                "zh": "维修已完成：{property_name} {unit_name}"
+            },
+            "body": {
+                "en": "Dear {user_name},\n\nThe maintenance request for {property_name} ({unit_name}) has been completed.\n\nIssue: {issue_type}\nRequested on: {request_date}\nMaintainer: {maintainer_name}\n\nPlease contact us if anything still needs attention.\n\nBest regards,\n{company_name}\n{company_email}",
+                "ms": "Kepada {user_name},\n\nPermintaan penyelenggaraan untuk {property_name} ({unit_name}) telah selesai.\n\nIsu: {issue_type}\nDimohon pada: {request_date}\nPenyelenggara: {maintainer_name}\n\nSila hubungi kami jika masih ada perkara yang perlu diberi perhatian.\n\nSekian, terima kasih.\n{company_name}\n{company_email}",
+                "zh": "{user_name} 您好，\n\n{property_name}（{unit_name}）的维修请求已完成。\n\n问题：{issue_type}\n申请日期：{request_date}\n维修人员：{maintainer_name}\n\n如仍有问题，请与我们联系。\n\n此致\n{company_name}\n{company_email}"
+            }
+        },
+        {
+            "event": "invoice_created",
+            "enabled": true,
+            "subject": {
+                "en": "Invoice {invoice_number} from {company_name}",
+                "ms": "Invois {invoice_number} daripada {company_name}",
+                "zh": "来自 {company_name} 的发票 {invoice_number}"
+            },
+            "body": {
+                "en": "Dear {tenant_name},\n\nA new invoice has been issued for {property_name} ({unit_name}).\n\nInvoice: {invoice_number}\nMonth: {invoice_month}\nAmount: {amount}\nDue date: {due_date}\n\nYou can pay online or upload your bank receipt after logging in at {app_url}.\n\nBest regards,\n{company_name}\n{company_email}",
+                "ms": "Kepada {tenant_name},\n\nInvois baharu telah dikeluarkan untuk {property_name} ({unit_name}).\n\nInvois: {invoice_number}\nBulan: {invoice_month}\nJumlah: {amount}\nTarikh akhir: {due_date}\n\nAnda boleh membayar dalam talian atau memuat naik resit bank selepas log masuk di {app_url}.\n\nSekian, terima kasih.\n{company_name}\n{company_email}",
+                "zh": "{tenant_name} 您好，\n\n已为 {property_name}（{unit_name}）开具新发票。\n\n发票：{invoice_number}\n月份：{invoice_month}\n金额：{amount}\n到期日：{due_date}\n\n请登录 {app_url} 在线付款或上传银行收据。\n\n此致\n{company_name}\n{company_email}"
+            }
+        },
+        {
+            "event": "payment_reminder",
+            "enabled": true,
+            "subject": {
+                "en": "Friendly reminder: invoice {invoice_number} is due",
+                "ms": "Peringatan: invois {invoice_number} perlu dibayar",
+                "zh": "温馨提醒：发票 {invoice_number} 即将到期"
+            },
+            "body": {
+                "en": "Dear {tenant_name},\n\nThis is a friendly reminder that invoice {invoice_number} for {property_name} ({unit_name}) is due on {due_date}.\n\nAmount due: {amount}\n\nPlease ignore this email if you have already paid.\n\nBest regards,\n{company_name}\n{company_email}",
+                "ms": "Kepada {tenant_name},\n\nIni adalah peringatan bahawa invois {invoice_number} untuk {property_name} ({unit_name}) perlu dibayar pada {due_date}.\n\nJumlah perlu dibayar: {amount}\n\nSila abaikan e-mel ini jika anda telah membuat bayaran.\n\nSekian, terima kasih.\n{company_name}\n{company_email}",
+                "zh": "{tenant_name} 您好，\n\n温馨提醒：{property_name}（{unit_name}）的发票 {invoice_number} 将于 {due_date} 到期。\n\n应付金额：{amount}\n\n如您已付款，请忽略此邮件。\n\n此致\n{company_name}\n{company_email}"
+            }
+        },
+        {
+            "event": "payment_received",
+            "enabled": true,
+            "subject": {
+                "en": "Payment received for invoice {invoice_number}",
+                "ms": "Bayaran diterima untuk invois {invoice_number}",
+                "zh": "已收到发票 {invoice_number} 的付款"
+            },
+            "body": {
+                "en": "Dear {tenant_name},\n\nWe have received your payment of {amount} for invoice {invoice_number} ({property_name}, {unit_name}) on {payment_date}.\n\nThank you.\n\nBest regards,\n{company_name}\n{company_email}",
+                "ms": "Kepada {tenant_name},\n\nKami telah menerima bayaran anda sebanyak {amount} untuk invois {invoice_number} ({property_name}, {unit_name}) pada {payment_date}.\n\nTerima kasih.\n\nSekian, terima kasih.\n{company_name}\n{company_email}",
+                "zh": "{tenant_name} 您好，\n\n我们已于 {payment_date} 收到您为发票 {invoice_number}（{property_name}，{unit_name}）支付的 {amount}。\n\n谢谢。\n\n此致\n{company_name}\n{company_email}"
+            }
+        }
+    ],
+    "custom_pages": [
+        {
+            "title": "Privacy Policy",
+            "slug": "privacy-policy",
+            "enabled": true,
+            "content": "Last updated: 1 October 2026\n\n1. Information we collect\nWe collect the details you give us when your tenancy or account is set up: your name, email address, phone number, identity details and address, plus records of invoices, payments, agreements and maintenance requests.\n\n2. How we use your information\nWe use it to manage your tenancy, issue invoices and receipts, arrange maintenance, contact you about your account and meet our legal obligations.\n\n3. Sharing\nWe do not sell your personal data. We share it only with contractors who carry out maintenance on our behalf, payment providers, and authorities when the law requires it.\n\n4. Security and retention\nAccounts are protected by passwords and access is limited by role. We keep records for as long as your tenancy lasts and afterwards for as long as the law requires.\n\n5. Your rights\nUnder the Personal Data Protection Act 2010 you may ask to access or correct your personal data. Contact the management office to do so."
+        },
+        {
+            "title": "Terms & Conditions",
+            "slug": "terms-conditions",
+            "enabled": true,
+            "content": "Last updated: 1 October 2026\n\n1. Accounts\nThe management office creates every account. Keep your login details private; you are responsible for activity on your account.\n\n2. Payments\nInvoices must be paid by their due date. Late payments may incur the late fee stated in your tenancy agreement. Bank receipts you upload are checked before the payment is recorded.\n\n3. Maintenance requests\nReport issues promptly with an accurate description. Urgent issues that put people or property at risk should also be reported by phone.\n\n4. Acceptable use\nDo not misuse the portal, upload unlawful content or try to access other users' information.\n\n5. Changes\nWe may update these terms from time to time. Continued use of the portal means you accept the updated terms."
+        }
+    ]
+}

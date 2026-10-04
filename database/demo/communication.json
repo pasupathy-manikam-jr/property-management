@@ -1,0 +1,54 @@
+{
+    "notes": [
+        {
+            "title": "Water supply interruption",
+            "description": "Air Selangor will carry out pipe maintenance on Saturday from 9:00 am to 5:00 pm. Please store enough water beforehand."
+        },
+        {
+            "title": "Lift servicing at Block A",
+            "description": "Lift A2 will be closed for its annual servicing next Tuesday. Please use lifts A1 and A3 in the meantime."
+        },
+        {
+            "title": "Hari Raya office hours",
+            "description": "The management office will be closed during the Hari Raya public holidays. For emergencies, call the security guard house."
+        },
+        {
+            "title": "Fire drill",
+            "description": "A fire evacuation drill will be held this month. Residents are encouraged to take part and follow the wardens' instructions."
+        }
+    ],
+    "contacts": [
+        {
+            "owner": "admin@example.com",
+            "name": "Ahmad Fauzi bin Ismail",
+            "email": "fauzi@plumbingpro.com.my",
+            "contact_number": "+60 12-334 5566",
+            "subject": "Plumbing contractor",
+            "message": "Handles pipe leaks and water heater installation for Bayu Damansara."
+        },
+        {
+            "owner": "admin@example.com",
+            "name": "Chong Kok Leong",
+            "email": "kl.chong@lifttech.com.my",
+            "contact_number": "+60 16-882 1022",
+            "subject": "Lift maintenance",
+            "message": "Annual lift servicing contract; call for breakdowns."
+        },
+        {
+            "owner": "manager@example.com",
+            "name": "Kavitha a/p Ramasamy",
+            "email": "kavitha@cleanserve.my",
+            "contact_number": "+60 17-445 9080",
+            "subject": "Cleaning services",
+            "message": "Common area cleaning, weekly schedule."
+        },
+        {
+            "owner": "tenant@example.com",
+            "name": "Mohd Hafiz",
+            "email": "hafiz@aircondfix.my",
+            "contact_number": "+60 11-2345 6789",
+            "subject": "Aircond servicing",
+            "message": "Services the air conditioners in my unit every six months."
+        }
+    ]
+}

@@ -1,0 +1,98 @@
+[
+    {
+        "name": "Rent",
+        "kind": "invoice"
+    },
+    {
+        "name": "Maintenance",
+        "kind": "invoice"
+    },
+    {
+        "name": "Utility",
+        "kind": "invoice"
+    },
+    {
+        "name": "Late Fee",
+        "kind": "invoice"
+    },
+    {
+        "name": "Move in or Move out",
+        "kind": "invoice"
+    },
+    {
+        "name": "Leasing Fee",
+        "kind": "invoice"
+    },
+    {
+        "name": "Miscellaneous",
+        "kind": "invoice"
+    },
+    {
+        "name": "Plumbing Repairs",
+        "kind": "expense"
+    },
+    {
+        "name": "Property Insurance",
+        "kind": "expense"
+    },
+    {
+        "name": "Property Taxes",
+        "kind": "expense"
+    },
+    {
+        "name": "Advertising and Marketing",
+        "kind": "expense"
+    },
+    {
+        "name": "Legal and Professional Fees",
+        "kind": "expense"
+    },
+    {
+        "name": "Utilities",
+        "kind": "expense"
+    },
+    {
+        "name": "Plumbing Problems",
+        "kind": "maintenance_issue"
+    },
+    {
+        "name": "Electrical Issues",
+        "kind": "maintenance_issue"
+    },
+    {
+        "name": "Structural and Building Maintenance",
+        "kind": "maintenance_issue"
+    },
+    {
+        "name": "Flooring and Carpentry Issues",
+        "kind": "maintenance_issue"
+    },
+    {
+        "name": "Exterior Maintenance",
+        "kind": "maintenance_issue"
+    },
+    {
+        "name": "General Maintenance",
+        "kind": "maintenance_issue"
+    },
+    {
+        "name": "Electrician",
+        "kind": "maintainer_type"
+    },
+    {
+        "name": "Plumber",
+        "kind": "maintainer_type"
+    },
+    {
+        "name": "Painter",
+        "kind": "maintainer_type"
+    },
+    {
+        "name": "Roofing Contractor",
+        "kind": "maintainer_type"
+    },
+    {
+        "name": "Elevator Technician",
+        "kind": "maintainer_type"
+    }
+]

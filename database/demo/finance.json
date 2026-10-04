@@ -1,0 +1,128 @@
+{
+    "invoices": {
+        "months": 4,
+        "due_day": 7,
+        "rent": { "type": "Rent", "description": "Monthly rent" },
+        "utility": {
+            "type": "Utility",
+            "description": "Water and electricity (TNB, Air Selangor)",
+            "amounts": [142.3, 186.75, 98.4, 215.1, 164.85]
+        },
+        "late_fee": {
+            "type": "Late Fee",
+            "description": "Late payment charge",
+            "amount": 50
+        },
+        "methods": ["bank_transfer", "cash", "online"]
+    },
+    "expenses": [
+        {
+            "title": "Burst pipe repair, level 10",
+            "type": "Plumbing Repairs",
+            "property": "Residensi Bayu Damansara",
+            "unit": "A-10-2",
+            "days_ago": 3,
+            "amount": 480,
+            "notes": "Replaced the section under the kitchen sink."
+        },
+        {
+            "title": "Annual fire insurance premium",
+            "type": "Property Insurance",
+            "property": "Residensi Bayu Damansara",
+            "unit": null,
+            "days_ago": 15,
+            "amount": 3250,
+            "notes": "Policy renewed with Etiqa."
+        },
+        {
+            "title": "Cukai pintu (assessment tax), 2nd half",
+            "type": "Property Taxes",
+            "property": "Menara Seri Bangsar",
+            "unit": null,
+            "days_ago": 22,
+            "amount": 1860,
+            "notes": "Paid to DBKL."
+        },
+        {
+            "title": "iProperty listing for unit 20-01",
+            "type": "Advertising and Marketing",
+            "property": "Menara Seri Bangsar",
+            "unit": "20-01",
+            "days_ago": 30,
+            "amount": 350,
+            "notes": null
+        },
+        {
+            "title": "Tenancy agreement stamping",
+            "type": "Legal and Professional Fees",
+            "property": "Menara Seri Bangsar",
+            "unit": "12-03",
+            "days_ago": 41,
+            "amount": 420,
+            "notes": "LHDN stamp duty and lawyer fee."
+        },
+        {
+            "title": "Common area electricity",
+            "type": "Utilities",
+            "property": "Taman Sri Gelugor Terrace",
+            "unit": null,
+            "days_ago": 48,
+            "amount": 265.4,
+            "notes": null
+        },
+        {
+            "title": "Toilet cistern replacement",
+            "type": "Plumbing Repairs",
+            "property": "Taman Sri Gelugor Terrace",
+            "unit": "No. 14",
+            "days_ago": 57,
+            "amount": 310,
+            "notes": null
+        },
+        {
+            "title": "Quit rent (cukai tanah)",
+            "type": "Property Taxes",
+            "property": "Kompleks Niaga Setia Alam",
+            "unit": null,
+            "days_ago": 66,
+            "amount": 2140,
+            "notes": "Paid to Pejabat Tanah Klang."
+        },
+        {
+            "title": "Shop lot signage and banner",
+            "type": "Advertising and Marketing",
+            "property": "Kompleks Niaga Setia Alam",
+            "unit": "Lot G-02",
+            "days_ago": 79,
+            "amount": 680,
+            "notes": null
+        },
+        {
+            "title": "Water tank cleaning",
+            "type": "Utilities",
+            "property": "Pangsapuri Mutiara Johor",
+            "unit": null,
+            "days_ago": 88,
+            "amount": 900,
+            "notes": "Quarterly service."
+        },
+        {
+            "title": "Leaking water heater fix",
+            "type": "Plumbing Repairs",
+            "property": "Pangsapuri Mutiara Johor",
+            "unit": "C-6-2",
+            "days_ago": 101,
+            "amount": 225,
+            "notes": null
+        },
+        {
+            "title": "Audit and accounting fee",
+            "type": "Legal and Professional Fees",
+            "property": "Residensi Bayu Damansara",
+            "unit": null,
+            "days_ago": 115,
+            "amount": 1500,
+            "notes": "Annual accounts for the management corporation."
+        }
+    ]
+}

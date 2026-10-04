@@ -1,0 +1,108 @@
+[
+    {
+        "property": "Residensi Bayu Damansara",
+        "unit": "A-10-1",
+        "issue": "Electrical Issues",
+        "maintainer": "maintainer@example.com",
+        "request_date": "2026-09-02",
+        "status": "completed",
+        "fixed_date": "2026-09-05",
+        "notes": "Kitchen power socket sparks when an appliance is plugged in.",
+        "comments": [
+            [
+                "tenant@example.com",
+                "The socket near the fridge is the one sparking."
+            ],
+            [
+                "maintainer@example.com",
+                "Replaced the socket and checked the circuit. All good now."
+            ]
+        ]
+    },
+    {
+        "property": "Residensi Bayu Damansara",
+        "unit": "A-10-2",
+        "issue": "Plumbing Problems",
+        "maintainer": "chongwei.lee@example.com",
+        "request_date": "2026-09-20",
+        "status": "in_progress",
+        "notes": "Water leaking under the bathroom sink.",
+        "comments": [
+            [
+                "chongwei.lee@example.com",
+                "Ordered a new trap; will fit it on Thursday."
+            ]
+        ]
+    },
+    {
+        "property": "Residensi Bayu Damansara",
+        "unit": "B-12-8",
+        "issue": "Electrical Issues",
+        "maintainer": "maintainer@example.com",
+        "request_date": "2026-09-28",
+        "status": "in_progress",
+        "notes": "Living room ceiling light flickers."
+    },
+    {
+        "property": "Menara Seri Bangsar",
+        "unit": "15-07",
+        "issue": "Flooring and Carpentry Issues",
+        "request_date": "2026-09-30",
+        "status": "pending",
+        "notes": "Bedroom wardrobe door hinge is broken."
+    },
+    {
+        "property": "Menara Seri Bangsar",
+        "unit": "12-03",
+        "issue": "Structural and Building Maintenance",
+        "maintainer": "muthu.krishnan@example.com",
+        "request_date": "2026-08-14",
+        "status": "completed",
+        "fixed_date": "2026-08-20",
+        "notes": "Damp patch and peeling paint on the balcony wall."
+    },
+    {
+        "property": "Taman Sri Gelugor Terrace",
+        "unit": "No. 12",
+        "issue": "Exterior Maintenance",
+        "maintainer": "hafiz.abdullah@example.com",
+        "request_date": "2026-09-10",
+        "status": "in_progress",
+        "notes": "Roof tiles cracked after the storm; water drips into the porch."
+    },
+    {
+        "property": "Taman Sri Gelugor Terrace",
+        "unit": "No. 12",
+        "issue": "Plumbing Problems",
+        "request_date": "2026-10-01",
+        "status": "pending",
+        "notes": "Low water pressure in the upstairs shower."
+    },
+    {
+        "property": "Pangsapuri Mutiara Johor",
+        "unit": "C-3-5",
+        "issue": "Plumbing Problems",
+        "maintainer": "chongwei.lee@example.com",
+        "request_date": "2026-07-22",
+        "status": "completed",
+        "fixed_date": "2026-07-23",
+        "notes": "Toilet cistern keeps running."
+    },
+    {
+        "property": "Kompleks Niaga Setia Alam",
+        "unit": "Lot G-01",
+        "issue": "General Maintenance",
+        "request_date": "2026-10-02",
+        "status": "pending",
+        "notes": "Shop shutter is stiff and hard to pull down."
+    },
+    {
+        "property": "Residensi Bayu Damansara",
+        "unit": "A-10-1",
+        "issue": "General Maintenance",
+        "request_date": "2026-10-03",
+        "status": "pending",
+        "notes": "Main door lock is loose.",
+        "comments": [["admin@example.com", "We will send someone this week."]]
+    }
+]

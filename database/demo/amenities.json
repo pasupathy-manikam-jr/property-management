@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Gym",
+        "description": "Fully equipped fitness centre"
+    },
+    {
+        "name": "Swimming Pool",
+        "description": "Shared swimming pool"
+    },
+    {
+        "name": "Waste Disposal",
+        "description": "Scheduled rubbish collection"
+    },
+    {
+        "name": "Solar Panels",
+        "description": "Solar power for common areas"
+    },
+    {
+        "name": "Wi-Fi Zone",
+        "description": "Free Wi-Fi in common areas"
+    },
+    {
+        "name": "Elevator",
+        "description": "Lift access to every floor"
+    },
+    {
+        "name": "Electricity",
+        "description": "Backup electricity supply"
+    }
+]

@@ -1,0 +1,14 @@
+{
+    "terms": "1. The Tenant shall pay the monthly rent in full on or before the due date stated in the invoice.\n2. The Tenant shall keep the unit clean and in good condition and promptly report any defects or maintenance issues to the management office.\n3. The Landlord shall carry out repairs to the structure and essential services within a reasonable time after notice.\n4. The Tenant shall not sublet, assign or carry out renovations to the unit without the Landlord's written consent.\n5. The security deposit will be refunded at the end of the tenancy, less any outstanding rent, utilities or repair costs.\n6. This agreement is governed by the laws of Malaysia.",
+    "description": "Standard residential tenancy agreement covering rent, deposit, maintenance and house rules for the unit.",
+    "statuses": {
+        "tenant@example.com": "pending",
+        "weiming.tan@example.com": "active",
+        "rajesh.kumar@example.com": "confirmed",
+        "meiling.lim@example.com": "active",
+        "faizal.hassan@example.com": "draft",
+        "sitihajar@example.com": "active",
+        "kahwai.wong@example.com": "pending",
+        "priya.ganesan@example.com": "confirmed"
+    }
+}

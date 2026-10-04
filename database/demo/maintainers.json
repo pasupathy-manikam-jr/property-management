@@ -1,0 +1,34 @@
+[
+    {
+        "name": "Ahmad Zulkifli bin Ismail",
+        "email": "maintainer@example.com",
+        "phone": "012-778 3401",
+        "type": "Electrician",
+        "properties": ["Residensi Bayu Damansara", "Menara Seri Bangsar"]
+    },
+    {
+        "name": "Lee Chong Wei",
+        "email": "chongwei.lee@example.com",
+        "phone": "016-332 9087",
+        "type": "Plumber",
+        "properties": [
+            "Residensi Bayu Damansara",
+            "Taman Sri Gelugor Terrace",
+            "Pangsapuri Mutiara Johor"
+        ]
+    },
+    {
+        "name": "Muthu Krishnan a/l Ramasamy",
+        "email": "muthu.krishnan@example.com",
+        "phone": "019-445 2018",
+        "type": "Painter",
+        "properties": ["Menara Seri Bangsar", "Kompleks Niaga Setia Alam"]
+    },
+    {
+        "name": "Mohd Hafiz bin Abdullah",
+        "email": "hafiz.abdullah@example.com",
+        "phone": "013-920 5576",
+        "type": "Roofing Contractor",
+        "properties": ["Taman Sri Gelugor Terrace", "Pangsapuri Mutiara Johor"]
+    }
+]
