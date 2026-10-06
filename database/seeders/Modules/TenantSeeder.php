@@ -4,6 +4,7 @@ namespace Database\Seeders\Modules;
 
 use App\Models\Unit;
 use App\Models\User;
+use Database\Seeders\DatabaseSeeder;
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Facades\File;
@@ -14,7 +15,7 @@ class TenantSeeder extends Seeder
     public function run(): void
     {
         // Hash once: every demo account shares the password.
-        $password = Hash::make('Zx123456');
+        $password = Hash::make(DatabaseSeeder::PASSWORD);
 
         foreach (File::json(database_path('demo/tenants.json')) as $row) {
             $user = User::query()->firstOrCreate(['email' => $row['email']], [
