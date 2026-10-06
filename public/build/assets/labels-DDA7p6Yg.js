@@ -1,0 +1,1 @@
+var e={own:`Own Property`,lease:`Lease Property`};export{e as t};
